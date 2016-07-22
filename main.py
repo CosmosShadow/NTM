@@ -15,7 +15,7 @@ flags.DEFINE_integer("write_head_size", 1, "The number of write head [1]")
 flags.DEFINE_integer("read_head_size", 1, "The number of read head [1]")
 flags.DEFINE_integer("test_max_length", 120, "Maximum length of output sequence [120]")
 flags.DEFINE_string("checkpoint_dir", "checkpoint", "Directory name to save the checkpoints [checkpoint]")
-flags.DEFINE_boolean("is_train", False, "True for training, False for testing [False]")
+flags.DEFINE_boolean("is_train", True, "True for training, False for testing [False]")
 FLAGS = flags.FLAGS
 
 def main(_):
