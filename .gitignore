@@ -1,0 +1,3 @@
+*.pyc
+checkpoing/*
+ipynb/.ipynb_checkpoints/*
